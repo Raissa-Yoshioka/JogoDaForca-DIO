@@ -19,14 +19,13 @@ public class Main {
                     .map(JogoDaForcaCaractere::new).toList();
         var jogoDaForca = new JogoDaForca(letra);
         System.out.println("Bem-vindo ao Jogo Da Forca, tente adivinhar a palavra, boa sorte.");
-        var option = "5";
         do {
             System.out.println(jogoDaForca);
             System.out.println("Selecione uma das opções:");
             System.out.println("1 - Verificar uma letra.");
             System.out.println("2 - Verificar o status do jogo.");
             System.out.println("3 - Sair do jogo");
-            option = scanner.next();
+            var option = scanner.next();
             switch (option) {
                 case "1" -> addCaractere(jogoDaForca);
                 case "2" -> System.out.println(jogoDaForca.getStatusDoJogo());
