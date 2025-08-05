@@ -25,7 +25,7 @@ O projeto consiste na criação de um jogo da forca utilizando Java como linguag
 ---
  ## Organização do Projeto
  
-Desenvolvido em ambiente console, o jogo inclui a estrutura completa de um jogo tradicional da forca, desde a definição da palavra oculta até a montagem gráfica simplificada da forca e da interação com o usuário por meio de menus e entradas de dados.
+Desenvolvido em ambiente console, o jogo inclui a estrutura completa de um jogo tradicional da forca, desde a definição da palavra secreta até a montagem gráfica simplificada da forca e da interação com o usuário por meio de menus e entradas de dados.
 
 O projeto está separado da seguinte forma:
 
@@ -49,7 +49,7 @@ O projeto está separado da seguinte forma:
      ```sh
      https://github.com/Raissa-Yoshioka/JogoDaForca-DIO.git
      ```
-  2. Há duas opções para começar o jogo:
+  2. Há dois modos de inicializar o programa:
      
      2.1. Pela linha de comando:
        ```sh
